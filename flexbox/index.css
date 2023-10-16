@@ -1,0 +1,39 @@
+.flex_container_cajas{
+  background-color: rgba(131, 30, 30, 0.842);
+  border: 1px solid black;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+  align-items: center;
+  align-content: center;
+  margin: 0 auto;
+  padding: 20px;
+  width: 80%;
+}
+.caja{
+  background-color: rgba(37, 37, 37, 0.795);
+  border: 1px solid black;
+  color: white;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+  height: 120px;
+  line-height: 120px;
+  margin: 5px;
+  text-align: center;
+  width: 120px;
+}
+p{
+  margin: 0;
+}
+.c1{
+    order: 3;
+    flex-grow: 5;
+}
+.c2{
+    order: 2;
+    flex-grow: 1;
+}
+.c3{
+    order: 1;
+    flex-grow: 3;
+}
