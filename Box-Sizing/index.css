@@ -1,0 +1,14 @@
+.caja{
+        background-color: cadetblue;
+        border: 1px solid grey;
+        border-radius: 10px;
+        box-shadow: 0px 0px 10px gray;
+        color: white;
+        font-family: 'Courier New', Courier, monospace;
+        height: 180px;
+        margin: 30px auto;
+        text-align: center;
+        box-sizing: border-box; /* permite que no varie el tamaño de la caja al agregar mas padding*/
+        padding: 20px;
+        width: 300px;
+  }

@@ -1,0 +1,12 @@
+:root{
+    --mi-variable: red;
+    --fuente: "Arial,Verdana"
+}
+h1{
+    color: var(--mi-variable);
+    font-family: var(--fuente);
+}
+span{
+    color: var(--mi-variable);
+    font-family: var(--fuente);
+}
